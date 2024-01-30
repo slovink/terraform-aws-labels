@@ -37,7 +37,7 @@ locals {
   generated_tags = { for l in keys(local.tags_context) : title(l) => local.tags_context[l] if length(local.tags_context[l]) > 0 }
 
   tags = merge(local.generated_tags, var.extra_tags)
-}#Module      : locals
+} #Module      : locals
 #Description : This terraform module is designed to generate consistent label names and tags for resources. You can use terraform-labels to implement a strict naming convention.
 
 locals {
