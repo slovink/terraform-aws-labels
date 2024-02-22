@@ -7,7 +7,7 @@
     Terraform AWS labels
 </h1>
 
-<p align="center" style="font-size: 1.2rem;"> 
+<p align="center" style="font-size: 1.2rem;">
     Terraform module to create labels resource on AWS.
      </p>
 

@@ -1,0 +1,39 @@
+#
+# This is the canonical configuration for the `README.md`
+# Run `make readme` to rebuild the `README.md`
+#
+
+# Name of this project
+name : Terraform Labels
+
+# License of this project
+license: "APACHE"
+
+# Canonical GitHub repo
+github_repo: git@github.com:slovink/terraform-aws-labels.git
+
+# extra content
+include:
+  - "terraform.md"
+
+# How to use this project
+usage : |-
+  ### Simple Example
+  Here is an example of how you can use this module in your inventory structure:
+  ```hcl
+      module "label" {
+        source      = "../"
+        version     = "1.3.0"
+        enabled     = true
+        name        = "labels"
+        environment = "prod"
+        managedby   = "hello@clouddrove.com"
+        repository  = "https://github.com/clouddrove/terraform-labels"
+        label_order = ["name","attributes","environment"]
+        delimiter   = "-"
+        tags = {
+            "Terraform Version"   = "1.0.1"
+            "created_date"        = "4-Apr-21"
+        }
+     }
+  ```
