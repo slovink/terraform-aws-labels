@@ -57,7 +57,7 @@ Here is an example of how you can use this module in your inventory structure:
 }
   ```
 ## License
-This Terraform module is available under the MIT License. For more details, please see the [LICENSE](https://github.com/slovink/terraform-aws-labels/blob/vinod/LICENSE) file.
+This Terraform module is available under the MIT License. For more details, please see the [LICENSE](https://github.com/slovink/terraform-aws-labels/blob/main/LICENSE) file.
 
 
 ## Feedback
