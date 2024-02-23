@@ -22,7 +22,7 @@ badges:
     url: "https://github.com/slovink/terraform-aws-labels/blob/main/LICENSE"
   - name: "tfsec"
     image: "https://github.com/slovink/terraform-aws-labels/actions/workflows/tfsec.yml/badge.svg"
-    url: "https://github.com/slovink/terraform-aws-labels/tree/vinod/.github/workflows/tfsec.yml"
+    url: "https://github.com/slovink/terraform-aws-labels/tree/main/.github/workflows/tfsec.yml"
 
 
 
