@@ -16,7 +16,7 @@
 <a href="https://www.terraform.io">
   <img src="https://img.shields.io/badge/Terraform-v1.7.4-green" alt="Terraform">
 </a>
-<a href="https://github.com/slovink/terraform-aws-labels/blob/main/LICENSE">
+<a href="https://github.com/slovink/terraform-aws-labels/blob/master/LICENSE">
   <img src="https://img.shields.io/badge/License-APACHE-blue.svg" alt="Licence">
 </a>
 
@@ -57,7 +57,7 @@ Here is an example of how you can use this module in your inventory structure:
 }
   ```
 ## License
-This Terraform module is available under the MIT License. For more details, please see the [LICENSE](https://github.com/slovink/terraform-aws-labels/blob/main/LICENSE) file.
+This Terraform module is available under the MIT License. For more details, please see the [LICENSE](https://github.com/slovink/terraform-aws-labels/blob/master/LICENSE) file.
 
 
 ## Feedback

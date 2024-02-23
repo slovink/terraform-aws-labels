@@ -19,10 +19,10 @@ badges:
     url: "https://www.terraform.io"
   - name: "Licence"
     image: "https://img.shields.io/badge/License-APACHE-blue.svg"
-    url: "https://github.com/slovink/terraform-aws-labels/blob/main/LICENSE"
+    url: "https://github.com/slovink/terraform-aws-labels/blob/master/LICENSE"
   - name: "tfsec"
     image: "https://github.com/slovink/terraform-aws-labels/actions/workflows/tfsec.yml/badge.svg"
-    url: "https://github.com/slovink/terraform-aws-labels/tree/main/.github/workflows/tfsec.yml"
+    url: "https://github.com/slovink/terraform-aws-labels/tree/master/.github/workflows/tfsec.yml"
 
 
 
