@@ -1,0 +1,53 @@
+#
+# This is the canonical configuration for the `README.md`
+# Run `make readme` to rebuild the `README.md`
+#
+
+# Name of this project
+name : Terraform Labels
+
+# License of this project
+license: "APACHE"
+
+# Canonical GitHub repo
+github_repo: git@github.com:slovink/terraform-aws-labels.git
+
+
+# Badges to display
+badges:
+  - name: "Terraform"
+    image: "https://img.shields.io/badge/Terraform-v1.7.0-green"
+    url: "https://www.terraform.io"
+  - name: "Licence"
+    image: "https://img.shields.io/badge/License-APACHE-blue.svg"
+    url: "https://github.com/slovink/terraform-aws-labels/blob/main/LICENSE"
+  - name: "tfsec"
+    image: "https://github.com/slovink/terraform-aws-labels/actions/workflows/tfsec.yml/badge.svg"
+    url: "https://github.com/slovink/terraform-aws-labels/tree/main/.github/workflows/tfsec.yml"
+
+
+
+#  description of this project
+description: |-
+  This terraform module is designed to generate consistent label names and tags for resources. You can use terraform-labels to implement a strict naming convention.
+
+
+# extra content
+include:
+  - "terraform.md"
+# How to use this project
+usage : |-
+  ### Simple Example
+  Here is an example of how you can use this module in your inventory structure:
+  ```hcl
+     module "labels" {
+       source      = "git@github.com:slovink/terraform-aws-labels.git?ref=v1.0.0"
+       name        = "app"
+       environment = "test"
+      label_order = ["name", "environment"]
+      attributes  = ["private"]
+      extra_tags = {
+        Application = "Demo"
+      }
+     }
+  ```

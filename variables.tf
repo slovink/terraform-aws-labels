@@ -14,7 +14,7 @@ variable "environment" {
 
 variable "repository" {
   type        = string
-  default     = ""
+  default     = "https://github.com/slovink/terraform-aws-labels.git"
   description = "Terraform current module repo"
 }
 
@@ -38,8 +38,8 @@ variable "extra_tags" {
 
 variable "managedby" {
   type        = string
-  default     = ""
-  description = ""
+  default     = "slovink"
+  description = "ManagedBy, eg 'slovink'."
 }
 
 variable "enabled" {
