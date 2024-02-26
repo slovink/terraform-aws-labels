@@ -4,7 +4,7 @@
 
 
 <h1 align="center">
-    Terraform AWS labels
+    Terraform AWS Labels
 </h1>
 
 <p align="center" style="font-size: 1.2rem;">
@@ -18,6 +18,10 @@
 </a>
 <a href="https://github.com/slovink/terraform-aws-labels/blob/main/LICENSE">
   <img src="https://img.shields.io/badge/License-APACHE-blue.svg" alt="Licence">
+</a>
+
+<a href='https://www.linkedin.com/shareArticle?mini=true&title=Terraform+AWS+SQS&url=https://github.com/slovink/terraform-aws-sqs'>
+  <img title="Share on LinkedIn" src="https://www.linkedin.com/company/101534993/admin/feed/posts/" />
 </a>
 
 
