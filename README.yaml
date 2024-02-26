@@ -41,7 +41,7 @@ usage : |-
   Here is an example of how you can use this module in your inventory structure:
   ```hcl
      module "labels" {
-       source      = "./../"
+       source      = "git@github.com:slovink/terraform-aws-labels.git?ref=v1.0.0"
        name        = "app"
        environment = "test"
       label_order = ["name", "environment"]
