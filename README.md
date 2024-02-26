@@ -60,7 +60,7 @@ This module has a few dependencies:
 Here is an example of how you can use this module in your inventory structure:
   ```hcl
  module "labels" {
-  source = "./../"
+  source = "git@github.com:slovink/terraform-aws-labels.git"
 
   name        = "labels"
   environment = "test"
